@@ -1,0 +1,101 @@
+state,city,city_state,year_range,fatal_shootings,rate_per_100k,avg_popn
+Missouri,St. Louis,"St. Louis, Missouri",2019 ? 2023,996,65.84,302217
+Alabama,Birmingham,"Birmingham, Alabama",2019 ? 2023,570,55.67,205718
+Louisiana,New Orleans,"New Orleans, Louisiana",2019 ? 2023,924,47.74,387417
+Maryland,Baltimore,"Baltimore, Maryland",2019 ? 2023,1358,45.64,594084
+Louisiana,Baton Rouge,"Baton Rouge, Louisiana",2019 ? 2023,437,39.09,223520
+Tennessee,Memphis,"Memphis, Tennessee",2019 ? 2023,1240,38.84,640289
+Ohio,Cleveland,"Cleveland, Ohio",2019 ? 2023,692,36.7,377543
+Michigan,Detroit,"Detroit, Michigan",2019 ? 2023,1016,30.96,655330
+Wisconsin,Milwaukee,"Milwaukee, Wisconsin",2019 ? 2023,851,29.26,583071
+Missouri,Kansas City,"Kansas City, Missouri",2019 ? 2023,721,28.83,499908
+Georgia,Atlanta,"Atlanta, Georgia",2019 ? 2023,694,27.74,499094
+District Of Columbia,Washington,"Washington, District Of Columbia",2019 ? 2023,955,27.52,694741
+Pennsylvania,Philadelphia,"Philadelphia, Pennsylvania",2019 ? 2023,2102,26.38,1592615
+California,Oakland,"Oakland, California",2019 ? 2023,491,22.61,433089
+Ohio,Cincinnati,"Cincinnati, Ohio",2019 ? 2023,346,22.57,306761
+Illinois,Chicago,"Chicago, Illinois",2019 ? 2023,3045,22.37,2722400
+New York,Rochester,"Rochester, New York",2019 ? 2023,233,22.32,208680
+Kentucky,Louisville/Jefferson County,"Louisville/Jefferson County, Kentucky",2019 ? 2023,699,22.31,626112
+Indiana,Indianapolis,"Indianapolis, Indiana",2019 ? 2023,959,21.83,878020
+Virginia,Norfolk,"Norfolk, Virginia",2019 ? 2023,211,17.56,240623
+Pennsylvania,Pittsburgh,"Pittsburgh, Pennsylvania",2019 ? 2023,246,16.3,301877
+Ohio,Toledo,"Toledo, Ohio",2019 ? 2023,218,16.01,272351
+New York,Buffalo,"Buffalo, New York",2019 ? 2023,208,15.61,267310
+New Jersey,Newark,"Newark, New Jersey",2019 ? 2023,229,15.51,296165
+Minnesota,Minneapolis,"Minneapolis, Minnesota",2019 ? 2023,320,14.99,426644
+North Carolina,Greensboro,"Greensboro, North Carolina",2019 ? 2023,220,14.83,296345
+Texas,Dallas,"Dallas, Texas",2019 ? 2023,976,14.78,1321780
+New Mexico,Albuquerque,"Albuquerque, New Mexico",2019 ? 2023,415,14.76,562111
+Texas,Houston,"Houston, Texas",2019 ? 2023,1643,14.23,2309887
+California,San Bernardino,"San Bernardino, California",2019 ? 2023,155,14.2,219373
+Ohio,Columbus,"Columbus, Ohio",2019 ? 2023,636,14.13,899799
+North Carolina,Durham,"Durham, North Carolina",2019 ? 2023,198,14.09,280494
+Florida,Jacksonville,"Jacksonville, Florida",2019 ? 2023,587,12.67,928240
+California,Stockton,"Stockton, California",2019 ? 2023,194,12.27,316106
+North Carolina,Winston-Salem,"Winston-Salem, North Carolina",2019 ? 2023,150,12.09,247849
+North Carolina,Charlotte,"Charlotte, North Carolina",2019 ? 2023,478,10.93,874624
+Tennessee,Nashville-Davidson,"Nashville-Davidson, Tennessee",2019 ? 2023,359,10.57,678328
+Florida,Orlando,"Orlando, Florida",2019 ? 2023,150,10.05,297991
+Oklahoma,Tulsa,"Tulsa, Oklahoma",2019 ? 2023,202,9.93,407562
+Kentucky,Lexington-Fayette,"Lexington-Fayette, Kentucky",2019 ? 2023,158,9.79,322791
+Indiana,Fort Wayne,"Fort Wayne, Indiana",2019 ? 2023,129,9.72,265617
+California,Fresno,"Fresno, California",2019 ? 2023,257,9.63,534860
+Minnesota,St. Paul,"St. Paul, Minnesota",2019 ? 2023,139,9.01,308947
+Colorado,Denver,"Denver, Colorado",2019 ? 2023,309,8.63,715852
+Kansas,Wichita,"Wichita, Kansas",2019 ? 2023,168,8.55,393135
+Oklahoma,Oklahoma City,"Oklahoma City, Oklahoma",2019 ? 2023,283,8.49,666738
+Texas,Fort Worth,"Fort Worth, Texas",2019 ? 2023,382,8.39,909824
+Arizona,Tucson,"Tucson, Arizona",2019 ? 2023,224,8.25,543152
+Texas,San Antonio,"San Antonio, Texas",2019 ? 2023,602,8.15,1481669
+Arizona,Phoenix,"Phoenix, Arizona",2019 ? 2023,664,8.15,1629759
+Oregon,Portland,"Portland, Oregon",2019 ? 2023,263,8.06,651449
+Colorado,Aurora,"Aurora, Colorado",2019 ? 2023,152,7.88,384229
+Texas,Lubbock,"Lubbock, Texas",2019 ? 2023,99,7.69,257433
+California,Bakersfield,"Bakersfield, California",2019 ? 2023,148,7.55,392253
+Florida,Tampa,"Tampa, Florida",2019 ? 2023,145,7.42,390616
+Texas,Corpus Christi,"Corpus Christi, Texas",2019 ? 2023,113,6.99,322044
+Nevada,North Las Vegas,"North Las Vegas, Nevada",2019 ? 2023,88,6.83,256078
+California,Sacramento,"Sacramento, California",2019 ? 2023,161,6.25,514812
+Nevada,Las Vegas,"Las Vegas, Nevada",2019 ? 2023,191,5.96,641331
+Florida,St. Petersburg,"St. Petersburg, Florida",2019 ? 2023,76,5.83,261609
+Colorado,Colorado Springs,"Colorado Springs, Colorado",2019 ? 2023,136,5.69,476817
+Florida,Miami,"Miami, Florida",2019 ? 2023,121,5.36,451171
+California,Long Beach,"Long Beach, California",2019 ? 2023,123,5.3,464029
+Virginia,Chesapeake,"Chesapeake, Virginia",2019 ? 2023,65,5.27,246276
+Texas,Austin,"Austin, Texas",2019 ? 2023,238,4.96,959924
+Alaska,Anchorage,"Anchorage, Alaska",2019 ? 2023,72,4.94,291424
+Nebraska,Omaha,"Omaha, Nebraska",2019 ? 2023,120,4.93,487203
+North Carolina,Raleigh,"Raleigh, North Carolina",2019 ? 2023,114,4.86,468213
+Massachusetts,Boston,"Boston, Massachusetts",2019 ? 2023,165,4.83,682463
+Arizona,Glendale,"Glendale, Arizona",2019 ? 2023,57,4.58,248781
+Nevada,Reno,"Reno, Nevada",2019 ? 2023,59,4.56,257662
+Texas,Arlington,"Arlington, Texas",2019 ? 2023,88,4.45,395741
+Washington,Seattle,"Seattle, Washington",2019 ? 2023,161,4.34,739345
+New Jersey,Jersey City,"Jersey City, New Jersey",2019 ? 2023,57,4.14,276550
+Virginia,Virginia Beach,"Virginia Beach, Virginia",2019 ? 2023,89,3.91,454976
+Washington,Spokane,"Spokane, Washington",2019 ? 2023,44,3.9,223974
+Texas,Garland,"Garland, Texas",2019 ? 2023,46,3.78,242985
+California,San Francisco,"San Francisco, California",2019 ? 2023,151,3.47,871613
+California,Los Angeles,"Los Angeles, California",2019 ? 2023,640,3.26,3934207
+Arizona,Mesa,"Mesa, Arizona",2019 ? 2023,80,3.16,506299
+California,Riverside,"Riverside, California",2019 ? 2023,50,3.1,320911
+Texas,El Paso,"El Paso, Texas",2019 ? 2023,100,2.95,678098
+California,Santa Ana,"Santa Ana, California",2019 ? 2023,47,2.92,320995
+New York,New York,"New York, New York",2019 ? 2023,1218,2.84,8565298
+Wisconsin,Madison,"Madison, Wisconsin",2019 ? 2023,32,2.42,263839
+California,San Jose,"San Jose, California",2019 ? 2023,117,2.29,1020697
+Nevada,Henderson,"Henderson, Nevada",2019 ? 2023,33,2.12,313792
+California,Anaheim,"Anaheim, California",2019 ? 2023,37,2.11,350348
+Texas,Laredo,"Laredo, Texas",2019 ? 2023,27,2.09,257816
+California,San Diego,"San Diego, California",2019 ? 2023,143,2.04,1400778
+Arizona,Chandler,"Chandler, Arizona",2019 ? 2023,27,2.03,267800
+Nebraska,Lincoln,"Lincoln, Nebraska",2019 ? 2023,23,1.59,289341
+Texas,Irving,"Irving, Texas",2019 ? 2023,17,1.36,249527
+California,Chula Vista,"Chula Vista, California",2019 ? 2023,18,1.31,273366
+Florida,Hialeah,"Hialeah, Florida",2019 ? 2023,14,1.22,227571
+Hawaii,Urban Honolulu CDP,"Urban Honolulu CDP, Hawaii",2019 ? 2023,21,1.2,349445
+Arizona,Scottsdale,"Scottsdale, Arizona",2019 ? 2023,13,1.03,247472
+California,Fremont,"Fremont, California",2019 ? 2023,10,0.86,233788
+Texas,Plano,"Plano, Texas",2019 ? 2023,9,0.63,285956
+California,Irvine,"Irvine, California",2019 ? 2023,6,0.41,291055
