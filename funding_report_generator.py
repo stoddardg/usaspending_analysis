@@ -8,6 +8,7 @@ from itables import show
 import itables.options as opt
 
 import re
+import os
 
 
 init_notebook_mode(all_interactive=True)
@@ -45,7 +46,15 @@ def filter_to_city(df, city, state):
 
 
 def read_data(focal_city, focal_state):
-    all_data = pd.read_parquet('clean_data/clean_doj_contracts.parquet')
+    file_path = 'clean_data/clean_doj_contracts.parquet'
+
+    # Check if the file exists in the current directory
+    if not os.path.exists(file_path):
+        # If not, navigate up one directory and redefine the file path
+        file_path = os.path.join(os.pardir, 'clean_data', 'clean_doj_contracts.parquet')
+
+    # Read the parquet file
+    all_data = pd.read_parquet(file_path)
 
     df = filter_to_city(all_data, focal_city, focal_state)
 
