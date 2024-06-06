@@ -1,0 +1,5 @@
+---
+title: "USA DOJ Spending Analysis"
+---
+
+This demo website was created by the UChicago Crime Lab to present DOJ grant funding to cities, in order to better understand the amount of funds being allocated to Community Violence Intervention programs.

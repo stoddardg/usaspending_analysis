@@ -1,0 +1,32 @@
+project:
+  type: website
+
+website:
+  title: "USA Spend Analysis"
+  navbar:
+    background: primary
+    search: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: overview.ipynb
+        text: Overview
+      - text: Cities
+        menu:
+          - chicago.ipynb
+          - atlanta.ipynb
+          - washington_dc.ipynb
+          - memphis.ipynb
+          - kansas_city.ipynb
+          - detroit.ipynb
+          - philly.ipynb
+          - milwaukee.ipynb
+          - phoenix.ipynb
+          - greensboro.ipynb
+
+
+format:
+  html:
+    theme: Lux
+    css: styles.css
+    toc: true
