@@ -32,7 +32,7 @@
     "href": "index.html",
     "title": "USA DOJ Spending Analysis",
     "section": "",
-    "text": "This is a demo website, created by the UChicago Crime Lab, to analyze DOJ grant funding to cities from the USA spending page. This is an attempt to better understand the amount of funds being allocated to violence prevention related programs.\nPlease note that everything on this website is considered a first pass analysis, and should not be taken to reflect fully accurate numbers. Ongoing work is being done to analyze where there may be incorrect labeling, either over- or under-representing the true amount of funding going into these areas for the cities being considered.\nData Sources:\n\nDOJ Grant Funding comes from USASpending.gov\nGun violence data comes from americanviolence.org"
+    "text": "This is a demo website, created by the UChicago Crime Lab, to analyze DOJ grant funding to cities from the USA spending page. This is an attempt to better understand the amount of funds being allocated to violence prevention related programs.\nPlease note that everything on this website is considered a first pass analysis, and should not be taken to reflect fully accurate numbers. Ongoing work is being done to analyze where there may be incorrect labeling, either over- or under-representing the true amount of funding going into these areas for the cities being considered.\n\nData Sources:\n\nDOJ Grant Funding comes from USASpending.gov\nGun violence data comes from americanviolence.org"
   },
   {
     "objectID": "greensboro.html",
