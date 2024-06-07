@@ -16,13 +16,18 @@ website:
           - chicago.ipynb
           - atlanta.ipynb
           - washington_dc.ipynb
+          - st_louis.ipynb
           - memphis.ipynb
           - kansas_city.ipynb
+          - birmingham.ipynb
           - detroit.ipynb
+          - new_orleans.ipynb
+          - baltimore.ipynb
           - philly.ipynb
           - milwaukee.ipynb
           - phoenix.ipynb
           - greensboro.ipynb
+          - baton_rouge.ipynb
 
 
 format:

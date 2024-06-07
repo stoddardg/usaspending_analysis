@@ -7,15 +7,19 @@ import nbformat
 cities = [
     "ATLANTA, GEORGIA",
     "WASHINGTON, DISTRICT OF COLUMBIA",
+    "SAINT LOUIS, MISSOURI",
     "MEMPHIS, TENNESSEE",
     "KANSAS CITY, MISSOURI",
+    "BIRMINGHAM, ALABAMA",
     "DETROIT, MICHIGAN",
+    "NEW ORLEANS, LOUISIANA",
+    "BALTIMORE, MARYLAND",
     "PHILADELPHIA, PENNSYLVANIA",
     "MILWAUKEE, WISCONSIN",
     "CHICAGO, ILLINOIS",
     "PHOENIX, ARIZONA",
     "GREENSBORO, NORTH CAROLINA",
-    "HARRISBURG, PENNSYLVANIA",
+    "BATON ROUGE, LOUISIANA"
 ]
 
 # Current directory and file paths
@@ -29,7 +33,8 @@ os.makedirs(website_dir, exist_ok=True)
 # City name replacements
 city_replacements = {
     "washington": "washington_dc",
-    "philadelphia": "philly"
+    "philadelphia": "philly",
+    "saint_louis": "st_louis"
 }
 
 # Process each city and state
