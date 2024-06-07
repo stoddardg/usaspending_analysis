@@ -1,5 +1,5 @@
 state,city,city_state,year_range,fatal_shootings,rate_per_100k,avg_popn
-Missouri,St. Louis,"St. Louis, Missouri",2019 ? 2023,996,65.84,302217
+Missouri,Saint Louis,"Saint Louis, Missouri",2019 ? 2023,996,65.84,302217
 Alabama,Birmingham,"Birmingham, Alabama",2019 ? 2023,570,55.67,205718
 Louisiana,New Orleans,"New Orleans, Louisiana",2019 ? 2023,924,47.74,387417
 Maryland,Baltimore,"Baltimore, Maryland",2019 ? 2023,1358,45.64,594084
