@@ -25,7 +25,7 @@ cities = [
 # Current directory and file paths
 home_dir = os.getcwd()
 source_file = os.path.join(home_dir, "funding_report_shell.ipynb")
-website_dir = os.path.join(home_dir, "website")
+website_dir = os.path.join(home_dir, "docs")
 
 # Ensure the website directory exists
 os.makedirs(website_dir, exist_ok=True)
