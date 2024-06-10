@@ -3,7 +3,7 @@ title: "USA DOJ Spending Analysis"
 toc: false
 ---
 
-This is a demo website, created by the [UChicago Crime Lab](https://crimelab.uchicago.edu/), to analyze DOJ grant funding to cities from the USA spending page. This is an attempt to better understand the amount of funds being allocated to violence prevention related programs.
+This is a demo website, created by the [UChicago Crime Lab](https://crimelab.uchicago.edu/), to analyze DOJ grant funding to cities from USASpending.gov. This is an attempt to better understand the amount of funds being allocated to violence prevention related programs.
 
 Please note that everything on this website is considered a first pass analysis, and should not be taken to reflect fully accurate numbers. Ongoing work is being done to analyze where there may be incorrect labeling, either over- or under-representing the true amount of funding going into these areas for the cities being considered.
 
