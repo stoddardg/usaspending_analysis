@@ -3,7 +3,7 @@ title: "USA DOJ Spending Analysis"
 toc: false
 ---
 
-This is a demo website, created by the UChicago Crime Lab, to analyze DOJ grant funding to cities from the USA spending page. This is an attempt to better understand the amount of funds being allocated to violence prevention related programs.
+This is a demo website, created by the [UChicago Crime Lab](https://crimelab.uchicago.edu/), to analyze DOJ grant funding to cities from the USA spending page. This is an attempt to better understand the amount of funds being allocated to violence prevention related programs.
 
 Please note that everything on this website is considered a first pass analysis, and should not be taken to reflect fully accurate numbers. Ongoing work is being done to analyze where there may be incorrect labeling, either over- or under-representing the true amount of funding going into these areas for the cities being considered.
 
@@ -11,3 +11,15 @@ Please note that everything on this website is considered a first pass analysis,
 
 1. DOJ Grant Funding comes from [USASpending.gov](https://www.usaspending.gov/download_center/custom_award_data)
 2. Gun violence data comes from [americanviolence.org](https://www.americanviolence.org/table?compChartType=differenceChart&compare=none&crimeType=400&customCompareInterval&customTimespanInterval&metric=total&precision=monthly&selectedCensusTractsIds&selectedCitiesIds&sortColumn=name&sortPage=0&sortReversed=false&timespan=lastMonth)
+
+
+### Analysis Decisions
+
+For the sake of data transparency, we have documented several key analytical decisions made during the data processing for this dashboard.
+
+1. **Exclusion of State Government Grants**: We excluded grants awarded to state governments, focusing instead on resources locally available to cities.
+2. **Primary Awards Inclusion**: Currently, only primary awards are included. Our roadmap includes incorporating sub-award data, which will allow for more granular analysis of fund distribution by geography.
+3. **Grant Categorization**: Categorization is based on the program_activities_funding_this_award and cfda_title data fields. These columns are not always present and may use inconsistent naming conventions; therefore, the categorization should be considered with caution.
+4. **Violence Prevention Determinations**: The determination of whether a grant is related to violence prevention is based solely on category and does not consider the grant description. Grants may be intended for purposes other than violence prevention, as indicated in their descriptions (e.g., grants for the purchase of body-worn cameras). Future iterations will address this labeling challenge in more detail.
+5. **Data Date Ranges**: The USA Spend data are based on date ranges. We exported data based on the Action Date to determine the year a grant was awarded. We included only grant entries where the `action_type_description` field is "New," thereby excluding entries labeled as "Revision" or "Adjustment."
+6. **City Selection for Demonstration**: For this demonstration, we selected a random set of cities with high gun violence rates. The cities displayed can be changed in future iterations.
