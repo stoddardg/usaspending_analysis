@@ -3,4 +3,6 @@ h1, h2, th {
     text-transform: none;
 }
 
-b,strong {font-weight: 800}
+b,strong {
+    font-weight: 800
+}
