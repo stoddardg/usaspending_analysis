@@ -39,6 +39,7 @@ programs = {
     "Community Policing Development Micro-Grants": "community policing development micro-grants",
     "Smart Policing": "smart policing",
     "Cops Hiring Program": "cops hiring program",
+    "Other": "other"
 }
 
 def filter_to_city(df, city, state):
@@ -46,12 +47,12 @@ def filter_to_city(df, city, state):
 
 
 def read_data(focal_city, focal_state):
-    file_path = 'clean_data/clean_doj_contracts.parquet'
+    file_path = 'clean_data/clean_doj_all_contracts.parquet'
 
     # Check if the file exists in the current directory
     if not os.path.exists(file_path):
         # If not, navigate up one directory and redefine the file path
-        file_path = os.path.join(os.pardir, 'clean_data', 'clean_doj_contracts.parquet')
+        file_path = os.path.join(os.pardir, 'clean_data', 'clean_doj_all_contracts.parquet')
 
     # Read the parquet file
     all_data = pd.read_parquet(file_path)
@@ -75,6 +76,13 @@ def gen_summary_table(df):
 
     for col in ['total_estimated_remaining_funds', 'total_obligated_funds']:
         grant_summary_table[col] = grant_summary_table[col].apply(lambda x: f"${x:,.0f}")
+
+    # Move the "Other" row to the bottom
+    other_rows = grant_summary_table[grant_summary_table['program_match'] == 'Other']
+    non_other_rows = grant_summary_table[grant_summary_table['program_match'] != 'Other']
+
+    # Concatenating with "Other" rows at the bottom
+    grant_summary_table = pd.concat([non_other_rows, other_rows], ignore_index=True)
 
     return grant_summary_table
 
