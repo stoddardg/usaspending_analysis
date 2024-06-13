@@ -63,7 +63,7 @@
             ],
             "program_activities_funding": []
         },
-        "Growth Opportunities - Youth  Program": {
+        "Growth Opportunities - Youth Program": {
             "cfda_descriptions": [],
             "program_activities_funding": []
         },
@@ -77,6 +77,12 @@
             ],
             "program_activities_funding": [
                 "0008: REINTEGRATION OF EX-OFFENDERS"
+            ]
+        },
+        "Youth Employment": {
+            "cfda_descriptions": [],
+            "program_activities_funding": [
+                "0005: YOUTH ACTIVITIES"
             ]
         }
     },
