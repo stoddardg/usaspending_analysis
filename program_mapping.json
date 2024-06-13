@@ -70,6 +70,14 @@
         "Pathways Home - Employment Program": {
             "cfda_descriptions": [],
             "program_activities_funding": []
+        },
+        "Re-Entry Employment": {
+            "cfda_descriptions": [
+                "REENTRY EMPLOYMENT OPPORTUNITIES"
+            ],
+            "program_activities_funding": [
+                "0008: REINTEGRATION OF EX-OFFENDERS"
+            ]
         }
     },
     "Department of Housing and Urban Development": {
