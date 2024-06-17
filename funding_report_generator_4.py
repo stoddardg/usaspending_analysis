@@ -191,8 +191,11 @@ def prep_line_item_dta(df):
     #     line_item_df[col] = line_item_df[col].apply(lambda x: f"${x:,.0f}")
 
     # Convert to hyperlinks
-    line_item_df['Link'] = line_item_df.apply(lambda x: f'<a href="{x["Link"]}" target="_blank">Details</a>', 
-                                                axis=1)
+    line_item_df['Link'] = line_item_df.apply(
+        lambda x: f'<a href="{x["Link"]}" target="_blank">Details{"*" if x["has_sub_grants"] else ""}</a>', 
+        axis=1
+    )
+
 
     # Make descriptions expandable
     line_item_df.Description = line_item_df.Description.apply(lambda x: make_expandable_text(x))
