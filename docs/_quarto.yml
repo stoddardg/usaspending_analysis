@@ -29,6 +29,23 @@ website:
           - phoenix.ipynb
           - greensboro.ipynb
           - baton_rouge.ipynb
+      - text: Cities - Redesign
+        menu:
+          - chicago_2.ipynb
+          - atlanta_2.ipynb
+          - washington_dc_2.ipynb
+          - st_louis_2.ipynb
+          - memphis_2.ipynb
+          - kansas_city_2.ipynb
+          - birmingham_2.ipynb
+          - detroit_2.ipynb
+          - new_orleans_2.ipynb
+          - baltimore_2.ipynb
+          - philly_2.ipynb
+          - milwaukee_2.ipynb
+          - phoenix_2.ipynb
+          - greensboro_2.ipynb
+          - baton_rouge_2.ipynb
 
 
 format:
