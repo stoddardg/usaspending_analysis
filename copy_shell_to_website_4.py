@@ -25,6 +25,7 @@ cities = [
 # Current directory and file paths
 home_dir = os.getcwd()
 source_file = os.path.join(home_dir, "funding_report_shell_4.ipynb")
+source_file_2 = os.path.join(home_dir, "city_analysis_report_shell.ipynb")
 website_dir = os.path.join(home_dir, "docs")
 
 # Ensure the website directory exists
@@ -50,14 +51,16 @@ for city_state in cities:
     
     # Destination file path
     dest_file = os.path.join(website_dir, f"{city_lower}_2.ipynb")
+    dest_file_2 = os.path.join(website_dir, f"{city_lower}_analysis.ipynb")
     
     # Copy and rename the file
     shutil.copy2(source_file, dest_file)
+    shutil.copy2(source_file_2, dest_file_2)
     
     # Read the copied file content
     with open(dest_file, 'r', encoding='utf-8') as file:
         notebook = nbformat.read(file, as_version=4)
-    
+
     for cell in notebook.cells:
         if cell.cell_type == 'markdown':
             # Replace title in markdown cells
@@ -71,4 +74,23 @@ for city_state in cities:
     with open(dest_file, 'w', encoding='utf-8') as file:
         nbformat.write(notebook, file)
 
-    os.system(f'jupyter trust {dest_file}')
+    # os.system(f'jupyter trust {dest_file}')
+
+    # Read the copied file content
+    with open(dest_file_2, 'r', encoding='utf-8') as file:
+        notebook_2 = nbformat.read(file, as_version=4)
+
+    for cell in notebook_2.cells:
+        if cell.cell_type == 'markdown':
+            # Replace title in markdown cells
+            cell.source = cell.source.replace('title: "Chicago"', f'title: "{city.title()}"')
+        elif cell.cell_type == 'code':
+            # Replace focal_city and focal_state in code cells
+            cell.source = re.sub(r"focal_city = 'CHICAGO'", f"focal_city = '{city.upper()}'", cell.source)
+            cell.source = re.sub(r"focal_state = 'ILLINOIS'", f"focal_state = '{state.upper()}'", cell.source)
+    
+    # Write the modified notebook back to the file
+    with open(dest_file_2, 'w', encoding='utf-8') as file:
+        nbformat.write(notebook_2, file)
+
+    # os.system(f'jupyter trust {dest_file_2}')
