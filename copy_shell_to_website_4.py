@@ -78,6 +78,3 @@ def copy_file_by_pattern(source_file, suffix):
 
 copy_file_by_pattern(source_file, '2')
 copy_file_by_pattern(source_file_2, 'analysis')
-
-
-    
