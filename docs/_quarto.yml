@@ -12,24 +12,24 @@ website:
         text: Home
       - href: overview.ipynb
         text: Overview
-      - text: Cities
-        menu:
-          - chicago.ipynb
-          - atlanta.ipynb
-          - washington_dc.ipynb
-          - st_louis.ipynb
-          - memphis.ipynb
-          - kansas_city.ipynb
-          - birmingham.ipynb
-          - detroit.ipynb
-          - new_orleans.ipynb
-          - baltimore.ipynb
-          - philly.ipynb
-          - milwaukee.ipynb
-          - phoenix.ipynb
-          - greensboro.ipynb
-          - baton_rouge.ipynb
-      - text: Cities - Redesign
+      # - text: Cities
+      #   menu:
+      #     - chicago.ipynb
+      #     - atlanta.ipynb
+      #     - washington_dc.ipynb
+      #     - st_louis.ipynb
+      #     - memphis.ipynb
+      #     - kansas_city.ipynb
+      #     - birmingham.ipynb
+      #     - detroit.ipynb
+      #     - new_orleans.ipynb
+      #     - baltimore.ipynb
+      #     - philly.ipynb
+      #     - milwaukee.ipynb
+      #     - phoenix.ipynb
+      #     - greensboro.ipynb
+      #     - baton_rouge.ipynb
+      - text: Cities - Funding Data
         menu:
           - chicago_2.ipynb
           - atlanta_2.ipynb
@@ -46,6 +46,23 @@ website:
           - phoenix_2.ipynb
           - greensboro_2.ipynb
           - baton_rouge_2.ipynb
+      - text: Cities - Analysis
+        menu:
+          - chicago_analysis.ipynb
+          - atlanta_analysis.ipynb
+          - washington_dc_analysis.ipynb
+          - st_louis_analysis.ipynb
+          - memphis_analysis.ipynb
+          - kansas_city_analysis.ipynb
+          - birmingham_analysis.ipynb
+          - detroit_analysis.ipynb
+          - new_orleans_analysis.ipynb
+          - baltimore_analysis.ipynb
+          - philly_analysis.ipynb
+          - milwaukee_analysis.ipynb
+          - phoenix_analysis.ipynb
+          - greensboro_analysis.ipynb
+          - baton_rouge_analysis.ipynb
 
 
 format:
