@@ -1,0 +1,79 @@
+---
+title: "Methodology"
+toc: true
+---
+
+
+### Analysis Decisions
+
+For the sake of data transparency, we have documented several key analytical decisions made during the data processing for this dashboard.
+
+1. **Exclusion of State Government Grants**: We excluded grants awarded to state governments, focusing instead on resources locally available to cities.
+2. **Primary Awards Inclusion**: Currently, only primary awards are included. Our roadmap includes incorporating sub-award data, which will allow for more granular analysis of fund distribution by geography.
+3. **Grant Categorization**: Categorization is based on the `program_activities_funding_this_award` and `cfda_title` data fields. These columns are not always present and may use inconsistent naming conventions; therefore, the categorization should be considered with caution.
+4. **Violence Prevention Determinations**: The determination of whether a grant is related to violence prevention is based solely on category and does not consider the grant description. Grants may be intended for purposes other than violence prevention, as indicated in their descriptions (e.g., grants for the purchase of body-worn cameras). Future iterations will address this labeling challenge in more detail.
+5. **Data Date Ranges**: The USA Spend data are based on date ranges. We exported data based on the Action Date to determine the year a grant was awarded. We included only grant entries where the `action_type_description` field is "New," thereby excluding entries labeled as "Revision" or "Adjustment."
+6. **City Selection for Demonstration**: For this demonstration, we selected a random set of cities with high gun violence rates. The cities displayed can be changed in future iterations.
+
+
+
+### Defining "Violence Prevention Related" Grants
+
+This dashboard attempts to identify federal grants which could be considered related to **violence prevention** initiatives. We consider only grants from FY 2019 - FY 2024. 
+
+At present, we have found relevant grant matches in four departments: The Department of Education, Department of Housing and Urban Development, Department of Justice, and Department of Labor.
+
+A "relevant match" refers to a grant from the USASpending.gov webpage downloads where we are able to identify relevant language in one of the following two columns:
+
+1. `program_activities_funding_this_award`
+2. `cfda_title`
+
+The `program_activities_funding_this_award` field is taken to be our source of truth. However, it is not always populated, so in some cases, the `cfda_title` column must be used.^[For instance, suppose we are considering grants which fall into the category of *Community Violence Intervention And Prevention Initiative* from the Department of Justice. We discovered a relevant value of `program_activities_funding_this_award`: *0153: COMMUNITY-BASED VIOLENCE PREVENTION INITIATIVES*. However, we also found two relevant `cfda_title` values: *COMMUNITY-BASED VIOLENCE PREVENTION PROGRAM* and *COMMUNITY-BASED VIOLENCE INTERVENTION AND PREVENTION INITIATIVE*.]
+
+Across all US cities, we were able to match just over 22,000 total grants with grant categories as listed below. Of these, around 75% were matched based on `program_activities_funding_this_award`, and the other 25% were matched based on `cfda_title`.
+
+Here, please find a list of all programs we were able to find matching grants for:
+
+**DOE**
+
+- 21st Century Learning Centers
+- Education Innovation and Research Program
+- Full Service Community Schools
+- Promise Neighborhoods
+- Student Support and Academic Enrichment
+
+
+**DOJ**
+
+- Byrne Criminal Justice Innovation
+- Byrne Memorial Justice Assistance Grant
+- Community Policing Development Micro-Grants
+- Community Violence Intervention And Prevention Initiative
+- Cops Hiring Program
+- Project Safe Neighborhood
+- School Violence Prevention Program
+- Second Chance Act Community Based Re-Entry Program
+- Smart Policing
+- Strategies To Support Children Exposed To Violence
+- Victims of Crime Act (VOCA)
+
+
+**HUD**
+
+- Choice Neighborhoods
+- Community Development and Block Grants
+
+
+**Labor**
+
+- Re-Entry Employment
+- Youth Build
+- Youth Employment
+
+
+
+### Additional Caveats and Warnings
+
+This methodology to determine whether a grant is related to violence prevention is based solely on category and does not consider the grant description. Grants which we find to be a "match" may be intended for purposes other than violence prevention, as indicated in their descriptions (e.g., grants for the purchase of body-worn cameras). On the other hand, there may be some grants where the description field is left blank, or where there is a typo, that are in fact related to violence prevention (e.g. there are many Cops Hiring Program grants where the description reads "CHP" but the two columns identified above are blank).
+
+As a result, we believe we are both over-counting and under-counting our grant inclusion. To remedy this, more sophisticated text analysis may be implemented in future iterations.

@@ -63,6 +63,9 @@ website:
           - phoenix_analysis.ipynb
           - greensboro_analysis.ipynb
           - baton_rouge_analysis.ipynb
+      - href: methodology.qmd
+        text: Methodology
+
 
 
 format:
