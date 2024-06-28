@@ -24,7 +24,7 @@ CITIES = [
     "BATON ROUGE, LOUISIANA"
 ]
 
-PATH_TO_RAW_DATA = 'raw_data'
+PATH_TO_RAW_DATA = '../../../data_raw'
 
 CLEAN_COL_NAMES = {
     'city_state': 'City',
