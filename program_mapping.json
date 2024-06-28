@@ -1,0 +1,223 @@
+{
+    "Department of Education": {
+        "21st Century Learning Centers": {
+            "cfda_descriptions": [
+                "TWENTY-FIRST CENTURY COMMUNITY LEARNING CENTERS"
+            ],
+            "program_activities_funding": [
+                "0002: 21ST CENTURY COMMUNITY LEARNING CENTERS"
+            ]
+        },
+        "Promise Neighborhoods": {
+            "cfda_descriptions": [
+                " PROMISE NEIGHBORHOODS",
+                " AND PROMISE NEIGHBORHOODS"
+            ],
+            "program_activities_funding": [
+                "0003: PROMISE NEIGHBORHOODS"
+            ]
+        },
+        "Full Service Community Schools": {
+            "cfda_descriptions": [
+                " FULL-SERVICE COMMUNITY SCHOOLS",
+                "INNOVATIVE APPROACHES TO LITERACY, FULL-SERVICE COMMUNITY SCHOOLS",
+                " AND FULL-SERVICE COMMUNITY SCHOOLS"
+            ],
+            "program_activities_funding": [
+                "0002: FULL-SERVICE COMMUNITY SCHOOLS"
+            ]
+        },
+        "Student Support and Academic Enrichment": {
+            "cfda_descriptions": [
+                "STUDENT SUPPORT AND ACADEMIC ENRICHMENT PROGRAM"
+            ],
+            "program_activities_funding": [
+                "0012: STUDENT SUPPORT AND ACADEMIC ENRICHMENT"
+            ]
+        },
+        "Education Innovation and Research Program": {
+            "cfda_descriptions": [
+                "EDUCATION INNOVATION AND RESEARCH (FORMERLY INVESTING IN INNOVATION (I3) FUND)"
+            ],
+            "program_activities_funding": [
+                "0001: EDUCATION, INNOVATION AND RESEARCH"
+            ]
+        },
+        "Project Parent": {
+            "cfda_descriptions": [],
+            "program_activities_funding": []
+        },
+        "Stronger Connections": {
+            "cfda_descriptions": [],
+            "program_activities_funding": []
+        },
+        "Transitioning Gang-Involved Youth to Higher Education Program": {
+            "cfda_descriptions": [],
+            "program_activities_funding": []
+        }
+    },
+    "Department of Labor": {
+        "Youth Build": {
+            "cfda_descriptions": [
+                "YOUTHBUILD"
+            ],
+            "program_activities_funding": []
+        },
+        "Growth Opportunities - Youth Program": {
+            "cfda_descriptions": [],
+            "program_activities_funding": []
+        },
+        "Pathways Home - Employment Program": {
+            "cfda_descriptions": [],
+            "program_activities_funding": []
+        },
+        "Re-Entry Employment": {
+            "cfda_descriptions": [
+                "REENTRY EMPLOYMENT OPPORTUNITIES"
+            ],
+            "program_activities_funding": [
+                "0008: REINTEGRATION OF EX-OFFENDERS"
+            ]
+        },
+        "Youth Employment": {
+            "cfda_descriptions": [],
+            "program_activities_funding": [
+                "0005: YOUTH ACTIVITIES"
+            ]
+        }
+    },
+    "Department of Housing and Urban Development": {
+        "Choice Neighborhoods": {
+            "cfda_descriptions": [
+                "CHOICE NEIGHBORHOODS IMPLEMENTATION GRANTS",
+                "CHOICE NEIGHBORHOODS PLANNING GRANTS"
+            ],
+            "program_activities_funding": [
+                "0001: CHOICE NEIGHBORHOODS GRANTS",
+                "0001: HOPE VI/CHOICE NEIGHBORHOODS GRANTS"
+            ]
+        },
+        "Community Development and Block Grants": {
+            "cfda_descriptions": [
+                "COMMUNITY DEVELOPMENT BLOCK GRANTS SECTION 108 LOAN GUARANTEES",
+                "COMMUNITY DEVELOPMENT BLOCK GRANTS/ENTITLEMENT GRANTS",
+                "COMMUNITY DEVELOPMENT BLOCK GRANTS/SPECIAL PURPOSE GRANTS/INSULAR AREAS",
+                "COMMUNITY DEVELOPMENT BLOCK GRANTS/STATE'S PROGRAM AND NON-ENTITLEMENT GRANTS IN HAWAII",
+                "INDIAN COMMUNITY DEVELOPMENT BLOCK GRANT PROGRAM"
+            ],
+            "program_activities_funding": [
+                "0001: COMMUNITY DEVELOPMENT FORMULA GRANTS",
+                "0022: INDIAN COMMUNITY DEVELOPMENT BLOCK GRANTS (ARP)",
+                "0016: INDIAN COMMUNITY DEVELOPMENT BLOCK GRANTS"
+            ]
+        }
+    },
+    "Department of Health and Human Services": {
+        "NIH Firearm Injury and Mortality Research": {
+            "cfda_descriptions": [],
+            "program_activities_funding": []
+        },
+        "CDC Preventing Violence Affecting Young Lives": {
+            "cfda_descriptions": [],
+            "program_activities_funding": []
+        },
+        "CDC National Centers for Excellence in Youth Violence": {
+            "cfda_descriptions": [],
+            "program_activities_funding": []
+        }
+    },
+    "Department of Justice": {
+        "Community Violence Intervention And Prevention Initiative": {
+            "cfda_descriptions": [
+                "COMMUNITY-BASED VIOLENCE PREVENTION PROGRAM",
+                "COMMUNITY-BASED VIOLENCE INTERVENTION AND PREVENTION INITIATIVE"
+            ],
+            "program_activities_funding": [
+                "0153: COMMUNITY-BASED VIOLENCE PREVENTION INITIATIVES"
+            ]
+        },
+        "Victims of Crime Act (VOCA)": {
+            "cfda_descriptions": [],
+            "program_activities_funding": [
+                "0001: CRIME VICTIMS GRANTS AND ASSISTANCE",
+                "0006: TRIBAL VICTIMS ASSISTANCE GRANTS"
+            ]
+        },
+        "Hospital Based Victim Services": {
+            "cfda_descriptions": [],
+            "program_activities_funding": []
+        },
+        "Center For Culturally Responsive Victim Services": {
+            "cfda_descriptions": [],
+            "program_activities_funding": []
+        },
+        "Byrne Memorial Justice Assistance Grant": {
+            "cfda_descriptions": [
+                "EDWARD BYRNE MEMORIAL JUSTICE ASSISTANCE GRANT PROGRAM"
+            ],
+            "program_activities_funding": [
+                "0007: JUSTICE ASSISTANCE GRANTS"
+            ]
+        },
+        "Byrne Criminal Justice Innovation": {
+            "cfda_descriptions": [],
+            "program_activities_funding": [
+                "0081: COMMUNITY BASED CRIME REDUCTION PROGRAM (BYRNE CRIMINAL JUSTICE INNOVATION)"
+            ]
+        },
+        "Strategies To Support Children Exposed To Violence": {
+            "cfda_descriptions": [
+                "CHILDREN EXPOSED TO VIOLENCE"
+            ],
+            "program_activities_funding": [
+                "0024: CHILDREN EXPOSED TO VIOLENCE"
+            ]
+        },
+        "Project Safe Neighborhood": {
+            "cfda_descriptions": [
+                "PROJECT SAFE NEIGHBORHOODS"
+            ],
+            "program_activities_funding": [
+                "0043: PROJECT SAFE NEIGHBORHOODS"
+            ]
+        },
+        "Youth Violence and Reductions": {
+            "cfda_descriptions": [],
+            "program_activities_funding": []
+        },
+        "School Violence Prevention Program": {
+            "cfda_descriptions": [
+                "STOP SCHOOL VIOLENCE"
+            ],
+            "program_activities_funding": [
+                "0143: STOP SCHOOL VIOLENCE ACT"
+            ]
+        },
+        "Second Chance Act Community Based Re-Entry Program": {
+            "cfda_descriptions": [
+                "SECOND CHANCE ACT REENTRY INITIATIVE"
+            ],
+            "program_activities_funding": [
+                "0050: SECOND CHANCE ACT/OFFENDER REENTRY"
+            ]
+        },
+        "Community Policing Development Micro-Grants": {
+            "cfda_descriptions": [],
+            "program_activities_funding": [
+                "0001: PUBLIC SAFETY AND COMMUNITY POLICING GRANTS"
+            ]
+        },
+        "Smart Policing": {
+            "cfda_descriptions": [],
+            "program_activities_funding": [
+                "0021: STRATEGIES FOR POLICING INNOVATION"
+            ]
+        },
+        "Cops Hiring Program": {
+            "cfda_descriptions": [],
+            "program_activities_funding": [
+                "0009: COPS HIRING PROGRAM"
+            ]
+        }
+    }
+}
