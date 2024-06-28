@@ -10,42 +10,23 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: overview.ipynb
-        text: Overview
-      # - text: Cities
-      #   menu:
-      #     - chicago.ipynb
-      #     - atlanta.ipynb
-      #     - washington_dc.ipynb
-      #     - st_louis.ipynb
-      #     - memphis.ipynb
-      #     - kansas_city.ipynb
-      #     - birmingham.ipynb
-      #     - detroit.ipynb
-      #     - new_orleans.ipynb
-      #     - baltimore.ipynb
-      #     - philly.ipynb
-      #     - milwaukee.ipynb
-      #     - phoenix.ipynb
-      #     - greensboro.ipynb
-      #     - baton_rouge.ipynb
       - text: Cities - Funding Data
         menu:
-          - chicago_2.ipynb
-          - atlanta_2.ipynb
-          - washington_dc_2.ipynb
-          - st_louis_2.ipynb
-          - memphis_2.ipynb
-          - kansas_city_2.ipynb
-          - birmingham_2.ipynb
-          - detroit_2.ipynb
-          - new_orleans_2.ipynb
-          - baltimore_2.ipynb
-          - philly_2.ipynb
-          - milwaukee_2.ipynb
-          - phoenix_2.ipynb
-          - greensboro_2.ipynb
-          - baton_rouge_2.ipynb
+          - chicago_funding.ipynb
+          - atlanta_funding.ipynb
+          - washington_dc_funding.ipynb
+          - st_louis_funding.ipynb
+          - memphis_funding.ipynb
+          - kansas_city_funding.ipynb
+          - birmingham_funding.ipynb
+          - detroit_funding.ipynb
+          - new_orleans_funding.ipynb
+          - baltimore_funding.ipynb
+          - philly_funding.ipynb
+          - milwaukee_funding.ipynb
+          - phoenix_funding.ipynb
+          - greensboro_funding.ipynb
+          - baton_rouge_funding.ipynb
       - text: Cities - Analysis
         menu:
           - chicago_analysis.ipynb
