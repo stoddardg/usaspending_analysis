@@ -156,7 +156,7 @@ def prep_and_output_dept_overview_table(focal_point, focal_city):
     display(Markdown('\n# City Comparisons\n\nHere, we display each individual department and then grant source, and its total funding value. Then, we look at the total funding value for the closest 5 cities^[The "closest 5 cities" are based on the 97 US cities with the highest gun violence rates from 2019 - 2023, and using absolute distance to measure "closeness."] via three metrics: average population, number of fatal shootings, and number of shootings per 100k residents.'))
     gun_df = pd.read_pickle('../processed_data/cleaned_gun_data.pkl')
     closest_metrics = gun_df[gun_df.city_state == focal_point]
-    closest_cities = closest_metrics.closest_5_fatal_shootings.iloc[0]
+    closest_cities = closest_metrics.closest_5_avg_popn.iloc[0]
     display(Markdown(f'\n\nFor example, the closest 5 cities by population to {focal_city.title()} (which had a population of {format(round(closest_metrics.avg_popn.iloc[0]), ",")} people) were:\n\n'))
 
     for city in closest_cities:

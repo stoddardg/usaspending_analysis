@@ -110,6 +110,10 @@ print(df[[
 print(df[df.n_prog_matches == 2][['awarding_agency_name', 'cfda_title', 'program_activities_funding_this_award']])
 
 
+# Intermediate output with `other` matches
+df.to_parquet('processed_data/mapped_grants_with_other.parquet')
+
+
 # Filter out the other grants
 df.dropna(subset=['program_match'], inplace=True)
 
